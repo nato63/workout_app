@@ -141,9 +141,9 @@ workout_app/
 ├── Pipfile
 ├── README.md
 └── server/
-    ├── app.py        # Flask app and endpoints
-    ├── models.py     # Database models, constraints and validations
-    ├── schemas.py    # Marshmallow schemas and validations
-    ├── seed.py       # Example data
-    └── migrations/   # Database migrations
+    ├── app.py
+    ├── models.py
+    ├── schemas.py
+    ├── seed.py
+    └── migrations/
 ```
