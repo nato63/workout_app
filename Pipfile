@@ -16,4 +16,4 @@ ipdb = "==0.13.9"
 [dev-packages]
 
 [requires]
-python_version = "3.14"
+python_version = "3.11"

@@ -19,6 +19,11 @@ we_schema = WorkoutExerciseSchema()
 
 
 # ---------- Workouts ----------
+@app.get("/")
+def index():
+    return jsonify({"message": "Welcome to the Workout API!"}), 200
+
+
 @app.get("/workouts")
 def get_workouts():
     return jsonify(WorkoutSchema(many=True).dump(Workout.query.all())), 200
